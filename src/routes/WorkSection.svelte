@@ -2,7 +2,7 @@
 	import Work from './Work.svelte';
 </script>
 
-<section class="mx-auto max-w-6xl space-y-12 px-4 py-20 sm:px-6 lg:px-8">
+<section id="work" class="mx-auto max-w-6xl space-y-12 px-4 py-20 sm:px-6 lg:px-8">
 	<h2 class="text-3xl font-bold">03. Work</h2>
 	<div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
 		<Work

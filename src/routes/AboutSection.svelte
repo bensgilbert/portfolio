@@ -1,4 +1,4 @@
-<section class="mx-auto max-w-6xl space-y-12 px-4 py-20 sm:px-6 lg:px-8">
+<section id="about" class="mx-auto max-w-6xl space-y-12 px-4 py-20 sm:px-6 lg:px-8">
 	<h2 class="text-3xl font-bold">01. About</h2>
 	<div class="grid gap-12 lg:grid-cols-3">
 		<div class="space-y-6 lg:col-span-2">

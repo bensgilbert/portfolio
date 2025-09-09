@@ -2,7 +2,7 @@
 	import { Github, Instagram, Linkedin, Mail, Send } from '@lucide/svelte';
 </script>
 
-<section class="relative overflow-hidden bg-gray-50 px-4 py-20 sm:px-6 lg:px-8">
+<section id="contact" class="relative overflow-hidden bg-gray-50 px-4 py-20 sm:px-6 lg:px-8">
 	<div class="absolute bottom-0 left-0 size-64 rounded-full bg-red-500/5 blur-3xl"></div>
 	<div class="absolute top-0 right-0 size-64 rounded-full bg-red-500/5 blur-3xl"></div>
 	<div class="relative mx-auto grid max-w-6xl gap-12 lg:grid-cols-2">
