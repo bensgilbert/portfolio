@@ -28,10 +28,10 @@
 	<div class="mx-auto flex max-w-6xl items-center justify-between px-4 transition-all sm:px-6 lg:px-8 {scrolled ? 'py-2' : 'py-4'}">
 		<a class="text-xl font-bold" href="/">BG</a>
 		<nav class="space-x-8 max-md:hidden">
-			<a class={[scrolledSection == 'about' && 'text-red-500']} href="#about">01. About</a>
-			<a class={[scrolledSection == 'experience' && 'text-red-500']} href="#experience">02. Experience</a>
-			<a class={[scrolledSection == 'work' && 'text-red-500']} href="#work">03. Work</a>
-			<a class={[scrolledSection == 'contact' && 'text-red-500']} href="#contact">04. Contact</a>
+			<a class={[scrolledSection == 'about' && 'text-primary']} href="#about">01. About</a>
+			<a class={[scrolledSection == 'experience' && 'text-primary']} href="#experience">02. Experience</a>
+			<a class={[scrolledSection == 'work' && 'text-primary']} href="#work">03. Work</a>
+			<a class={[scrolledSection == 'contact' && 'text-primary']} href="#contact">04. Contact</a>
 		</nav>
 		<!-- svelte-ignore a11y_consider_explicit_label -->
 		<button class="md:hidden" onclick={() => (menu = !menu)}>
@@ -46,10 +46,10 @@
 		<!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
 		<div class="transition-shadow md:hidden {!scrolled && 'shadow-md'}" onclick={() => (menu = !menu)} transition:slide>
 			<nav class="flex flex-col gap-2 px-4 transition-all sm:px-6 lg:px-8 {scrolled ? 'pb-2' : 'pb-4'}">
-				<a class={[scrolledSection == 'about' && 'text-red-500']} href="#about">01. About</a>
-				<a class={[scrolledSection == 'experience' && 'text-red-500']} href="#experience">02. Experience</a>
-				<a class={[scrolledSection == 'work' && 'text-red-500']} href="#work">03. Work</a>
-				<a class={[scrolledSection == 'contact' && 'text-red-500']} href="#contact">04. Contact</a>
+				<a class={[scrolledSection == 'about' && 'text-primary']} href="#about">01. About</a>
+				<a class={[scrolledSection == 'experience' && 'text-primary']} href="#experience">02. Experience</a>
+				<a class={[scrolledSection == 'work' && 'text-primary']} href="#work">03. Work</a>
+				<a class={[scrolledSection == 'contact' && 'text-primary']} href="#contact">04. Contact</a>
 			</nav>
 		</div>
 	{/if}
@@ -59,6 +59,6 @@
 	@reference "../app.css";
 
 	a {
-		@apply transition-colors hover:text-red-500 active:text-red-500;
+		@apply transition-colors hover:text-primary active:text-primary;
 	}
 </style>

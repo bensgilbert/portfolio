@@ -20,14 +20,14 @@
 	<div class="relative h-46 bg-black">
 		<img class="size-full object-cover" src={image} alt={title} />
 		{#if github || href}
-			<div class="absolute inset-0 flex items-center justify-center gap-4 bg-red-500/75 {hover ? 'opacity-100' : 'opacity-0'} transition-opacity focus-within:opacity-100">
+			<div class="absolute inset-0 flex items-center justify-center gap-4 bg-primary/75 {hover ? 'opacity-100' : 'opacity-0'} transition-opacity focus-within:opacity-100">
 				{#if github}
-					<a aria-label={title} class="rounded-full bg-white p-2 transition-colors hover:text-red-500" href={github}>
+					<a aria-label={title} class="rounded-full bg-white p-2 transition-colors hover:text-primary" href={github}>
 						<Github size={20} />
 					</a>
 				{/if}
 				{#if href}
-					<a aria-label={title} class="rounded-full bg-white p-2 transition-colors hover:text-red-500" {href}>
+					<a aria-label={title} class="rounded-full bg-white p-2 transition-colors hover:text-primary" {href}>
 						<ExternalLink size={20} />
 					</a>
 				{/if}
@@ -40,7 +40,7 @@
 		{#if technologies.length}
 			<div class="flex flex-wrap gap-2">
 				{#each technologies as technology}
-					<p class="rounded-full border border-red-500 px-2.5 py-0.5 text-xs font-semibold text-red-500">{technology}</p>
+					<p class="rounded-full border border-primary px-2.5 py-0.5 text-xs font-semibold text-primary">{technology}</p>
 				{/each}
 			</div>
 		{/if}

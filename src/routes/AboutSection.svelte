@@ -37,6 +37,6 @@
 	@reference "../app.css";
 
 	.skill {
-		@apply cursor-default rounded-full border border-gray-200 px-3 py-1 text-sm transition-colors duration-150 hover:border-red-500 hover:bg-red-500 hover:text-white;
+		@apply cursor-default rounded-full border border-gray-200 px-3 py-1 text-sm transition-colors duration-150 hover:border-primary hover:bg-primary hover:text-white;
 	}
 </style>
