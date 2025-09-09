@@ -4,3 +4,10 @@
 	font-family: 'InterVariable';
 	src: url('/InterVariable.woff2') format('woff2');
 }
+
+@layer base {
+	button:not(:disabled),
+	[role='button']:not(:disabled) {
+		cursor: pointer;
+	}
+}
