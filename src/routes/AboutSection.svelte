@@ -1,5 +1,5 @@
 <section id="about" class="mx-auto max-w-6xl space-y-12 px-4 py-20 sm:px-6 lg:px-8">
-	<h2 class="text-3xl font-bold">01. About</h2>
+	<h2 class="heading text-3xl font-bold">01. About</h2>
 	<div class="grid gap-12 lg:grid-cols-3">
 		<div class="space-y-6 lg:col-span-2">
 			<p>
@@ -14,7 +14,10 @@
 			</p>
 		</div>
 		<div class="space-y-6">
-			<h3 class="text-xl font-semibold">Skills</h3>
+			<h3 class="relative inline-block text-xl font-semibold">
+				Skills
+				<span class="absolute bottom-0 left-0 h-0.5 w-1/2 rounded-full bg-primary"></span>
+			</h3>
 			<div class="flex flex-wrap gap-3">
 				<p class="skill">Skill</p>
 				<p class="skill">Skill</p>

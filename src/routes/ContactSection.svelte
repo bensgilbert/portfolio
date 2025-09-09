@@ -7,7 +7,7 @@
 	<div class="absolute top-0 right-0 size-64 rounded-full bg-primary/5 blur-3xl"></div>
 	<div class="relative mx-auto grid max-w-6xl gap-12 lg:grid-cols-2">
 		<div class="space-y-12">
-			<h2 class="text-3xl font-bold">04. Contact</h2>
+			<h2 class="heading text-3xl font-bold">04. Contact</h2>
 			<div class="space-y-6">
 				<h3 class="text-2xl font-semibold">Get in touch</h3>
 				<p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>

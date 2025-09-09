@@ -10,6 +10,15 @@
 	[role='button']:not(:disabled) {
 		cursor: pointer;
 	}
+
+	.heading {
+		@apply relative inline-block pb-3;
+	}
+
+	.heading::after {
+		content: '';
+		@apply absolute bottom-0 left-0 h-1 w-1/2 rounded-full bg-primary;
+	}
 }
 
 @theme {

@@ -6,7 +6,7 @@
 	<div class="absolute bottom-0 left-0 size-64 rounded-full bg-primary/5 blur-3xl"></div>
 	<div class="absolute top-0 right-0 size-64 rounded-full bg-primary/5 blur-3xl"></div>
 	<div class="mx-auto max-w-6xl space-y-12">
-		<h2 class="text-3xl font-bold">02. Experience</h2>
+		<h2 class="heading text-3xl font-bold">02. Experience</h2>
 		<Experience dateRange="Present" title="Lorem ipsum">
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
