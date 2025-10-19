@@ -6,22 +6,26 @@
 	<h2 class="heading text-3xl font-bold">03. Work</h2>
 	<div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
 		<Work
-			image="https://placehold.co/600x400/black/white?text=Lorem%20ipsum"
-			title="Lorem ipsum"
-			description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-			technologies={[]}
+			image="/codecollaborate.png"
+			href="https://collaborate.bensgilbert.com"
+			title="Code Collaborate"
+			description="An online service for chatting, sharing and producing python code collaboratively"
+			technologies={['SvelteKit', 'Tailwind CSS', 'TypeScript', 'Python', 'FastAPI', 'WebSocket']}
+		/>
+		<Work image="/raycaster.png" href="/raycaster" title="RayCaster" description="A custom raycasting engine" technologies={['p5.js']} />
+		<Work
+			image="/streamit.png"
+			href="https://streamit.bensgilbert.com"
+			title="StreamIt"
+			description="An online streaming service for watching synchronised video together"
+			technologies={['SvelteKit', 'Socket.IO', 'WebRTC', 'Mediasoup', 'Audio/Video Streaming']}
 		/>
 		<Work
-			image="https://placehold.co/600x400/black/white?text=Lorem%20ipsum"
-			title="Lorem ipsum"
-			description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-			technologies={[]}
-		/>
-		<Work
-			image="https://placehold.co/600x400/black/white?text=Lorem%20ipsum"
-			title="Lorem ipsum"
-			description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-			technologies={[]}
+			image="/tsp.png"
+			href="/tsp"
+			title="Travelling Salesman Problem"
+			description="An interactive demonstration of the NP-hard travelling salesman problem"
+			technologies={['p5.js', 'Web Worker']}
 		/>
 	</div>
 </section>

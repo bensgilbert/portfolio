@@ -33,7 +33,6 @@
 			<a class={[scrolledSection == 'work' && 'text-primary']} href="#work">03. Work</a>
 			<a class={[scrolledSection == 'contact' && 'text-primary']} href="#contact">04. Contact</a>
 		</nav>
-		<!-- svelte-ignore a11y_consider_explicit_label -->
 		<button class="md:hidden" onclick={() => (menu = !menu)}>
 			{#if menu}
 				<X />

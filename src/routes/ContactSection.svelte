@@ -21,7 +21,7 @@
 				<div class="flex gap-4 pt-4">
 					<a
 						aria-label="Github"
-						class="rounded-full bg-white p-2 shadow outline-offset-4 outline-primary transition-colors hover:bg-primary hover:text-white focus-visible:outline-2"
+						class="rounded-full bg-white p-2 shadow outline-offset-3 outline-primary transition-colors hover:bg-primary hover:text-white focus-visible:outline-2"
 						href="https://github.com/bensgilbert"
 						rel="noopener noreferrer"
 						target="_blank"
@@ -30,7 +30,7 @@
 					</a>
 					<a
 						aria-label="LinkedIn"
-						class="rounded-full bg-white p-2 shadow outline-offset-4 outline-primary transition-colors hover:bg-primary hover:text-white focus-visible:outline-2"
+						class="rounded-full bg-white p-2 shadow outline-offset-3 outline-primary transition-colors hover:bg-primary hover:text-white focus-visible:outline-2"
 						href="https://linkedin.com/in/bensgilbert"
 						rel="noopener noreferrer"
 						target="_blank"
@@ -39,7 +39,7 @@
 					</a>
 					<a
 						aria-label="Instagram"
-						class="rounded-full bg-white p-2 shadow outline-offset-4 outline-primary transition-colors hover:bg-primary hover:text-white focus-visible:outline-2"
+						class="rounded-full bg-white p-2 shadow outline-offset-3 outline-primary transition-colors hover:bg-primary hover:text-white focus-visible:outline-2"
 						href="https://www.instagram.com/_ben._.s/"
 						rel="noopener noreferrer"
 						target="_blank"

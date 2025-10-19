@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+@import './routes/tsp/page.css';
+
 @font-face {
 	font-family: 'InterVariable';
 	src: url('/InterVariable.woff2') format('woff2');
