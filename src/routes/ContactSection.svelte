@@ -10,7 +10,7 @@
 			<h2 class="heading text-3xl font-bold">04. Contact</h2>
 			<div class="space-y-6">
 				<h3 class="text-2xl font-semibold">Get in touch</h3>
-				<p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p class="text-lg text-gray-700">Don't be scared to say hi! Whether you have a question, project idea, or just want to connect, I'm always open to new conversations.</p>
 				<a
 					class="inline-flex items-center gap-2 rounded text-lg font-medium outline-offset-3 outline-primary transition-colors hover:text-primary focus-visible:outline-2"
 					href="mailto:bensgilbert@outlook.com"
