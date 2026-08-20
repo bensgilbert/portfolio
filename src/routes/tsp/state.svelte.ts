@@ -41,6 +41,14 @@ export function play() {
 	if (state.cities.length < 3) return;
 	if (state.algorithmCache.has(state.algorithm)) return;
 
+	if (state.algorithm == Algorithm.BruteForce) {
+		if (state.cities.length >= 15) {
+			alert('This will take too long... sorry');
+			return;
+		}
+		if (state.cities.length >= 12 && !confirm('This might take a while, continue?')) return;
+	}
+
 	state.worker = new Worker();
 	state.progress = 0;
 
