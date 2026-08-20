@@ -12,20 +12,19 @@
 			description="An online service for chatting, sharing and producing python code collaboratively"
 			technologies={['SvelteKit', 'Tailwind CSS', 'TypeScript', 'Python', 'FastAPI', 'WebSocket']}
 		/>
-		<Work image="/raycaster.png" href="/raycaster" title="RayCaster" description="A custom raycasting engine" technologies={['p5.js']} />
-		<Work
-			image="/streamit.png"
-			href="https://streamit.bensgilbert.com"
-			title="StreamIt"
-			description="An online streaming service for watching synchronised video together"
-			technologies={['SvelteKit', 'Socket.IO', 'WebRTC', 'Mediasoup', 'Audio/Video Streaming']}
-		/>
 		<Work
 			image="/tsp.png"
 			href="/tsp"
 			title="Travelling Salesman Problem"
 			description="An interactive demonstration of the NP-hard travelling salesman problem"
 			technologies={['p5.js', 'Web Worker']}
+		/>
+		<Work
+			image="/streamit.png"
+			href="https://streamit.bensgilbert.com"
+			title="StreamIt"
+			description="An online streaming service for watching synchronised video together"
+			technologies={['SvelteKit', 'Socket.IO', 'WebRTC', 'Mediasoup', 'Audio/Video Streaming']}
 		/>
 	</div>
 </section>
