@@ -9,7 +9,7 @@
 
 <svelte:head>
 	<title>Ben Gilbert's Portfolio</title>
-	<meta name="description" content="Ben Gilbert is a third-year computer science student at the University of Sheffield with a passion for cyber security, networking, and web development." />
+	<meta name="description" content="Ben Gilbert is a recent computer science graduate from the University of Sheffield with a passion for cyber security, networking, and web development." />
 </svelte:head>
 
 <div class="font-['InterVariable']">
