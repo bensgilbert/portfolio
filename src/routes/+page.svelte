@@ -7,6 +7,11 @@
 	import WorkSection from './WorkSection.svelte';
 </script>
 
+<svelte:head>
+	<title>Ben Gilbert's Portfolio</title>
+	<meta name="description" content="Ben Gilbert is a third-year computer science student at the University of Sheffield with a passion for cyber security, networking, and web development." />
+</svelte:head>
+
 <div class="font-['InterVariable']">
 	<Header />
 	<main>
