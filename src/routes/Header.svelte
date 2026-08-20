@@ -16,7 +16,7 @@
 			const element = document.getElementById(section);
 			if (element) {
 				const rect = element.getBoundingClientRect();
-				if (rect.top <= 100) {
+				if (rect.top <= 164) {
 					scrolledSection = section;
 				}
 			}
