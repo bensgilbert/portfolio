@@ -3,15 +3,15 @@
 	<div class="grid gap-12 lg:grid-cols-3">
 		<div class="space-y-6 text-gray-700 lg:col-span-2">
 			<p>
-				My coding journey began at the age of eight, experimenting with simple scripts in <span class="font-semibold text-primary">Scratch</span>. As my confidence grew, I transitioned to
-				<span class="font-semibold text-primary">Python</span>, creating small tools to automate everyday tasks. This curiosity led me to explore
+				I started coding at the age of eight, experimenting with simple scripts in <span class="font-semibold text-primary">Scratch</span>. As I gained confidence, I transitioned to
+				<span class="font-semibold text-primary">Python</span>, creating small tools to automate everyday tasks. My curiosity then led me to explore
 				<span class="font-semibold text-primary">web development</span>, and soon after, <span class="font-semibold text-primary">cybersecurity</span>. I enjoyed not only building websites but also
 				identifying and addressing their vulnerabilities, continuously learning and improving along the way.
 			</p>
 			<p>
 				During my time at <span class="font-semibold text-primary">Sheffield University</span>, I've strengthened my core knowledge of computer science while gaining practical experience through
 				collaborative projects and real-world challenges. A standout experience was taking part in <span class="font-semibold text-primary">HackSheffield</span>, a 24-hour hackathon, where my team and
-				I built a web app designed to support food distribution for those in need. While we didn't take first place, we won a t-shirt each from <span class="font-semibold text-primary">GitHub</span> for
+				I built a website designed to support food distribution for those in need. While we didn't take first place, we won a t-shirt each from <span class="font-semibold text-primary">GitHub</span> for
 				our effective use of git.
 			</p>
 		</div>
