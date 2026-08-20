@@ -1,11 +1,9 @@
 <script>
-  import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 
-  const targetUrl = '/raycaster/index.html';
-
-  onMount(() => {
-    window.location.replace(targetUrl);
-  });
+	onMount(() => {
+		window.location.replace('/raycaster/index.html');
+	});
 </script>
 
 <p>Redirecting...</p>
