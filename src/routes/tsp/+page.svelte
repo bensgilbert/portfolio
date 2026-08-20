@@ -78,6 +78,10 @@
 			Brute Force
 			<input bind:group={tsp.algorithm} type="radio" value={Algorithm.BruteForce} />
 		</label>
+		<label class="flex items-center justify-between {tsp.algorithm == Algorithm.GlobalGreedy && 'font-medium'}">
+			Global Greedy
+			<input bind:group={tsp.algorithm} type="radio" value={Algorithm.GlobalGreedy} />
+		</label>
 		<label class="flex items-center justify-between {tsp.algorithm == Algorithm.NearestNeighbour && 'font-medium'}">
 			Nearest Neighbour
 			<input bind:group={tsp.algorithm} type="radio" value={Algorithm.NearestNeighbour} />
