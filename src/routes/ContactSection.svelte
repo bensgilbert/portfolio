@@ -75,9 +75,12 @@
 					value={''}
 				></textarea>
 			</label>
-			<button class="flex justify-center gap-2 rounded bg-primary p-2 text-sm font-medium text-white outline-offset-2 outline-primary focus-visible:outline-2" type="submit">
+			<button
+				class="flex items-center justify-center gap-2 rounded bg-primary p-2 text-sm font-medium text-white outline-offset-2 outline-primary hover:bg-primary-dark focus-visible:outline-2"
+				type="submit"
+			>
 				Send Message
-				<Send size={20} />
+				<Send size={16} />
 			</button>
 		</form>
 	</div>
